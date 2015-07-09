@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Header>
+   
+  </s:Header>
+  <s:Body>
+    <GetListResponse xmlns="http://tempuri.org/">
+      <GetListResult xmlns:a="http://schemas.datacontract.org/2004/07/Queaso.Northwind.Model" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:Customer>
+          <a:CompanyName>Alfred K</a:CompanyName>
+          <a:CustomerID>ALFKI</a:CustomerID>
+        </a:Customer>
+      </GetListResult>
+    </GetListResponse>
+  </s:Body>
+</s:Envelope>
